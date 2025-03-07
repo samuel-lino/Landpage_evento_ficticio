@@ -1,0 +1,1 @@
+# Landpage ficticia, criada para o exercicio do curso fullstack Python da EBAC
