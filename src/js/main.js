@@ -23,7 +23,6 @@ const contador = setInterval(function(){
 
 
     document.getElementById('contador').innerHTML = `${diasParaOEvento}d ${horasParaOEvento}h ${minutosParaOEvento}m ${segundosParaOEvento}s`;
-console.log(distanciaParaOEvento)
     if(distanciaParaOEvento < 0){
         clearInterval(contador);
         document.getElementById('contador').innerHTML = "Já aconteceu!"
