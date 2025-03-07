@@ -13,6 +13,7 @@
         font-weight: bold;
         text-align: center;
         margin-top: 100px;
+        color: #fff;
     }
 
     .description{
@@ -29,10 +30,6 @@
         &__item{
             display: flex;
             flex-direction: column;
-            color: #000;
-            b{
-                color: #000;
-            }
         }
 
         .button{
@@ -40,6 +37,7 @@
             background-color: #6C43BF;
             align-items: center;
             padding: 18px 8px;
+            color: #fff;
         }
     }
     .container {
