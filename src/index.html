@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aniversário</title>
     <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header class="hero">
         <div class="container">
             <p class="hero__text">
                 Aniversário de Samuel Eduardo Lino Gomes. <br>
-                A festa vai ser em: 140d
+                A festa vai ser em: <span id="contador"></span>
             </p>
             <div class="description">
                 <div class="description__item">
@@ -24,7 +25,7 @@
     </header>
 
     <section class="event event--sobre">
-        <div class="container">
+        <div class="container" data-aos="fade-left" data-aos-duration="1500">
             <div class="event__info">
                 <h2 class="event__info__title">
                     Sobre
@@ -38,7 +39,7 @@
 
     </section>
     <section class="event event--atracoes">
-        <div class="container">
+        <div class="container" data-aos="fade-right" data-aos-duration="1500">
             <div class="event__info">
                 <h2 class="event__info__title">
                     Atrações
@@ -52,7 +53,7 @@
 
     </section>
     <section class="event event--comida">
-        <div class="container">
+        <div class="container" data-aos="fade-left" data-aos-duration="1500">
             <div class="event__info">
                 <h2 class="event__info__title">
                     Comida
@@ -65,6 +66,7 @@
         </div>
 
     </section>
-    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
