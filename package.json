@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "parcel src/index.html src/styles/main.scss",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Samuel Eduardo Lino Gomes",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.13.3"
+    "@parcel/transformer-sass": "^2.13.3",
+    "parcel": "^2.13.3",
+    "sharp": "^0.33.5"
   }
 }

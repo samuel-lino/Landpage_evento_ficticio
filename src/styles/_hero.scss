@@ -1,0 +1,78 @@
+
+.hero{
+    padding-top: 64px;
+    padding-bottom: 100px;
+    background-image: url(../images/aniversario-genera-10-anos.png);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    &__text{
+        font-size: 48px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .description{
+        display: flex;
+        margin-top: 40px;
+        gap: 50px;
+        width: 50vw;
+        padding: 8px 18px;
+        background-image: linear-gradient(90deg, #0B7DCE, #F5EE18);
+        justify-content: space-between;
+        align-items: center;
+
+
+        &__item{
+            display: flex;
+            flex-direction: column;
+            color: #000;
+            b{
+                color: #000;
+            }
+        }
+
+        .button{
+            display: flex;
+            background-color: #6C43BF;
+            align-items: center;
+            padding: 18px 8px;
+        }
+    }
+    .container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &::before{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        opacity: .5;
+        content: '';
+        
+    }
+
+    @media(max-width:640px){
+        height: 80vh;
+
+        &__text{
+            font-size: 24px;
+        }
+        .description{
+            display: block;
+            &__item{
+                margin-bottom: 12px;
+            }
+        }
+    }
+}
+
